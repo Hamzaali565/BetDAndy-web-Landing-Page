@@ -1,0 +1,143 @@
+.Container {
+    background-color: #002B3A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: blue;
+    padding: 10px 0;
+}
+
+.secondContainer {
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+    align-items: center;
+}
+
+.pages {
+    display: flex;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.pagestext {
+    color: white;
+    margin-left: 10px;
+}
+
+.Button1 {
+    background-color: red;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.logButtons {
+    display: flex;
+    align-items: center;
+}
+
+.logButtons>div {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Button1 {
+        /* background-color: lightblue; */
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pages {
+        /* background-color: lightblue; */
+        display: none;
+    }
+
+    .Button1 {
+        background-color: red;
+        border: none;
+        padding: 15px 20px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .image {
+        height: 100px;
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .Button1 {
+        background-color: red;
+        border: none;
+        padding: 15px 20px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .image {
+        height: 80px;
+        width: 100px;
+    }
+
+    .log {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logButtons {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Button1 {
+        background-color: red;
+        border: none;
+        padding: 15px 15px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .image {
+        height: 80px;
+        width: 100px;
+    }
+
+    .log {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logButtons {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .Button1 {
+        background-color: red;
+        border: none;
+        padding: 15px 5px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .image {
+        height: 80px;
+        width: 100px;
+    }
+
+    .log {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logButtons {
+        margin-top: 5px;
+    }
+}
