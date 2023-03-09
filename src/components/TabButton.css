@@ -1,0 +1,89 @@
+.mainContainer6 {
+    background-color: #3A3A3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* margin: 10px; */
+}
+
+.buttonTitle {
+    text-align: center;
+    color: white;
+}
+
+/* .buttonIcon{
+    display: block;
+} */
+
+@media only screen and (max-width: 1024px) {
+    .mainContainer6 {
+        /* padding: 0 10em; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mainContainer6 {
+        padding: 10px 10px;
+    }
+
+    .buttonIcon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .buttonTitle {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .mainContainer6 {
+        padding: 10px 5px;
+        flex-direction: column;
+    }
+
+    .buttonIcon {
+        height: 15px;
+        width: 15px;
+    }
+
+    .buttonTitle {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .mainContainer6 {
+        padding: 10px 5px;
+    }
+
+    .buttonIcon {
+        height: 12px;
+        width: 12px;
+    }
+
+    .buttonTitle {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .mainContainer6 {
+        padding: 10px 5px;
+    }
+
+    .buttonIcon {
+        height: 12px;
+        width: 12px;
+    }
+
+    .buttonTitle {
+        font-size: 8px;
+    }
+}

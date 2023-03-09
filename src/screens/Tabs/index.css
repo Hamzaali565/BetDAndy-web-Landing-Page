@@ -1,5 +1,66 @@
-.container1 {
+.container8 {
     background-color: black;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    /* padding: 2em 5em; */
+}
+
+.container9 {
+    padding: 0 12em;
+}
+
+.tabs {
+    background-color: white;
+    padding-bottom: 1em;
+}
+
+.line {
+    /* style={{ backgroundColor: "#0076A1", height: "10px" }} */
+    background-color: #0076A1;
+    height: 5px;
+}
+
+.fourButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.btContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.tabButton {
+    background-color: #0076A1;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 10px 25px;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container9 {
+        padding: 0 2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container9 {
+        padding: 0 2em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container9 {
+        padding: 0 2em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container9 {
+        padding: 0 1em;
+    }
 }

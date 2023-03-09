@@ -1,0 +1,18 @@
+/* .BBarContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+} */
+.BBarContainer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.BBarContainer2 {
+    display: flex;
+    justify-content: space-around;
+    /* width: 80%; */
+    padding: 2em 7em;
+    flex-wrap: wrap;
+    align-items: center;
+}

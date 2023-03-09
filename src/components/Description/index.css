@@ -1,0 +1,81 @@
+.DescriptionContainer {
+    margin-top: 30px;
+    width: 70%;
+    /* border: 1px solid red; */
+    /* display: flex */
+}
+
+.Box {
+    width: 20px;
+    height: 60px;
+    background-color: #0076A1;
+}
+
+.BoxAndDescription {
+    display: flex;
+    align-items: center;
+}
+
+.DescriptionHeading {
+    padding-left: 10px;
+    /* padding-right: 2em; */
+    font-size: 25px;
+    font-weight: 600;
+    color: #919191;
+    /* padding-right: 10em; */
+}
+
+.DescriptionText {
+    color: #919191;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0 2em 0 1em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .DescriptionContainer {
+        width: 80%;
+    }
+
+    .DescriptionText {
+        color: #919191;
+        line-height: 25px;
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 0 2em 0 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .DescriptionContainer {
+        width: 80%;
+    }
+
+    .DescriptionHeading {
+
+        font-size: 20px;
+
+    }
+
+    .DescriptionText {
+        color: #919191;
+        /* line-height: 30px; */
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 0 1em 0 1em;
+    }
+
+    .Box {
+        width: 20px;
+        height: 40px;
+        background-color: #0076A1;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .DescriptionText {
+        padding: 0 0 0 1em;
+    }
+}

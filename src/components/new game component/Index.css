@@ -1,0 +1,76 @@
+.GameContainer {
+    border: 1px solid black;
+    width: 20%;
+    background-color: WHITE;
+    /* height: auto; */
+}
+
+.GameImage>img {
+    width: 100%;
+}
+
+.GameHeading {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    padding: 6px 0;
+    margin-left: 20px;
+}
+
+.GameTextContainer {
+    padding: 0 1.5em;
+}
+
+.GameText {
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.GameButton {
+    width: 100%;
+    font-size: 20px;
+    background-color: #CE9134;
+    border: none;
+    padding: 10px 0;
+    /* bottom: 10; */
+}
+
+.GameButtonContainer {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .GameContainer {
+        width: 22%;
+    }
+
+    .GameHeading {
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 15px;
+
+    }
+
+    .GameTextContainer {
+        padding: 0 1em 1em 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .GameContainer {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .GameContainer {
+        width: 90%;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    .GameContainer {
+        width: 30%;
+    } */
+/* } */
