@@ -4,4 +4,6 @@
 
 .descriptionContain2 {
     padding: 5em 0;
+    display: flex;
+    justify-content: center;
 }

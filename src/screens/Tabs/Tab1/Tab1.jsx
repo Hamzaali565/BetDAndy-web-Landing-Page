@@ -28,9 +28,9 @@ const Tab1 = ({
         <div>
           <img src={source4} alt="Image Here" className="mainImage" />
         </div>
-      </div>
-      {/* 2 */}
-      <div className="imagesContainer2">
+        {/* </div> */}
+        {/* 2 */}
+        {/* <div className="imagesContainer2"> */}
         <div>
           <img src={source5} alt="Image Here" className="mainImage" />
         </div>
@@ -44,6 +44,7 @@ const Tab1 = ({
           <img src={source8} alt="Image Here" className="mainImage" />
         </div>
       </div>
+      {/* //{" "} */}
     </div>
   );
 };

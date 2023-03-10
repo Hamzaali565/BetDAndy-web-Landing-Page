@@ -7,7 +7,7 @@ const Header = () => {
       <div>
         <img
           className="image"
-          src="https://www.slotocash.im/images/logo-redesign.png"
+          src={require("../../images/headerimage/header.png")}
           alt=""
         />
       </div>
@@ -37,7 +37,7 @@ const Header = () => {
           <div>
             <img
               className="log"
-              src="https://www.slotocash.im/images/login-btn.png"
+              src={require("../../images/headerimage/login-btn.png")}
               alt=""
             />
           </div>
@@ -45,7 +45,7 @@ const Header = () => {
           <div>
             <img
               className="log"
-              src="https://www.slotocash.im/images/signup-btn.png"
+              src={require("../../images/headerimage/signup-btn.png")}
               alt=""
             />
           </div>

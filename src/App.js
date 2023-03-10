@@ -15,18 +15,21 @@ import DescriptionComp from './components/Description/DescriptionComp';
 import MerginDescription from './components/Description/MerginDescription';
 import Description from './screens/Description/Description';
 import BottomBarComponent from './components/BottomBarComponent/BottomBarComponent';
+import Footer from './screens/Footer/Footer';
 // import Header from './screens/Header/Header';
 
 function App() {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Banner />
       <Tab />
       <Newgames />
       <Banner01 />
-      <Description /> */}
-      <BottomBarComponent />
+      <Description />
+      <Footer />
+      {/* <FourCards /> */}
+      {/* <BottomBarComponent /> */}
     </div>
   );
 }

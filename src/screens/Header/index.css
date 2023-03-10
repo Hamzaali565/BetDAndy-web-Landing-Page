@@ -1,5 +1,6 @@
 .Container {
-    background-color: #002B3A;
+    /* background-color: #002B3A; */
+    background-color: #1B1212;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,14 +25,26 @@
 .pagestext {
     color: white;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.pagestext:hover {
+    color: #919191;
+    ;
 }
 
 .Button1 {
     background-color: red;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
     padding: 15px 20px;
     color: white;
     font-size: 18px;
+}
+
+.log {
+    cursor: pointer;
 }
 
 .logButtons {

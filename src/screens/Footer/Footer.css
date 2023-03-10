@@ -1,0 +1,50 @@
+.FooterContainer {
+    background-color: #000000;
+}
+
+.CopyRightText {
+    color: #00B7C0;
+}
+
+.Autocomplete {
+    background-color: white;
+    border-radius: 10px;
+    /* width: 100%; */
+    width: 20%;
+}
+
+.AutocompleteContainer {
+    border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .CopyRightText {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .CopyRightText {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .Autocomplete {
+        background-color: white;
+        border-radius: 10px;
+        /* width: 100%; */
+        width: 80%;
+        margin-top: 5%;
+    }
+}

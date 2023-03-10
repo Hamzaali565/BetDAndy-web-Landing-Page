@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-const DescriptionComp = ({ heading, text }) => {
+const DescriptionComp = ({ heading, text, padding }) => {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div className="DescriptionContainer">

@@ -2,7 +2,7 @@
     border: 1px solid black;
     width: 20%;
     background-color: WHITE;
-    /* height: auto; */
+    /* height: 30%; */
 }
 
 .GameImage>img {
@@ -33,16 +33,25 @@
     background-color: #CE9134;
     border: none;
     padding: 10px 0;
+    cursor: pointer;
     /* bottom: 10; */
 }
 
 .GameButtonContainer {
     margin-top: 30px;
+    /* position: relative;
+    bottom: 0; */
 }
 
 @media only screen and (max-width: 1024px) {
     .GameContainer {
         width: 22%;
+        height: 20%;
+    }
+
+    .GameText {
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .GameHeading {
@@ -61,11 +70,21 @@
     .GameContainer {
         width: 40%;
     }
+
+    .GameText {
+        font-size: 15px;
+        line-height: 22px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .GameContainer {
         width: 90%;
+    }
+
+    .GameText {
+        font-size: 16px;
+        line-height: 22px;
     }
 }
 

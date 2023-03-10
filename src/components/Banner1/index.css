@@ -74,10 +74,17 @@
     }
 }
 
+@media only screen and (max-width: 375px) {
+    .BannerText {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     .BannerText {
         font-size: 10px;
-        line-height: 22px;
+        line-height: 20px;
     }
 
     .mainBannerImage {

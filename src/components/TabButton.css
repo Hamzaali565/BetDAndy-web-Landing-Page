@@ -3,9 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
     cursor: pointer;
     /* margin: 10px; */
+}
+
+.mainContainer6:hover {
+    background-color: gray;
 }
 
 .buttonTitle {
@@ -26,7 +30,7 @@
 @media only screen and (max-width: 768px) {
 
     .mainContainer6 {
-        padding: 10px 10px;
+        padding: 10px 40px;
     }
 
     .buttonIcon {
@@ -42,7 +46,7 @@
 @media only screen and (max-width: 425px) {
 
     .mainContainer6 {
-        padding: 10px 5px;
+        padding: 10px 10px;
         flex-direction: column;
     }
 
@@ -59,7 +63,7 @@
 @media only screen and (max-width: 375px) {
 
     .mainContainer6 {
-        padding: 10px 5px;
+        padding: 10px 7px;
     }
 
     .buttonIcon {
@@ -75,7 +79,7 @@
 @media only screen and (max-width: 320px) {
 
     .mainContainer6 {
-        padding: 10px 5px;
+        padding: 10px 10px;
     }
 
     .buttonIcon {

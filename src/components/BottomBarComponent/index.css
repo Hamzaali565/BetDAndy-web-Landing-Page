@@ -1,8 +1,3 @@
-/* .BBarContainer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-} */
 .BBarContainer2 {
     display: flex;
     justify-content: center;
@@ -15,4 +10,57 @@
     padding: 2em 7em;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.newLineContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.newMainLine {
+    height: 10px;
+    background-color: #0076A1;
+    width: 90%;
+}
+
+.iconMainContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.paymentMethod {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .paymentMethod {
+        height: 70px;
+        width: 70px;
+    }
+
+    .BBarContainer2 {
+        padding: 2em 4em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .iconContainer {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+
+    .BBarContainer2 {
+        padding: 2em 5em;
+    }
 }

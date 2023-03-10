@@ -5,7 +5,7 @@
 .imagesContainer {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .imagesContainer2 {
@@ -41,9 +41,40 @@
 
 @media only screen and (max-width: 425px) {
 
-    /* .Container3 {
-        background-color: red;
-    } */
+    .Container3 {
+        /* background-color: red; */
+        /* padding: 1em em; */
+    }
+
+    .mainImage {
+        height: 130px;
+        width: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .mainImage {
+        height: 100px;
+        width: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 393px) {
+
+    .mainImage {
+        height: 100px;
+        width: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+
+
     .mainImage {
         height: 100px;
         width: 130px;
