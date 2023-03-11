@@ -12,6 +12,7 @@
 .tabs {
     background-color: white;
     padding-bottom: 1em;
+    transition: 0.5s;
 }
 
 .line {
@@ -32,14 +33,28 @@
 }
 
 .tabButton {
-    background-color: #0076A1;
+    /* background-color: #0076A1;
     color: white;
     border: none;
     cursor: pointer;
     font-size: 17px;
     padding: 10px 25px;
     font-weight: 200;
+    border-radius: 5px; */
+    background-color: #CE9134;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 20px;
+    transition: 0.3s;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tabButton:hover {
+    opacity: 0.6;
 }
 
 @media only screen and (max-width: 1024px) {

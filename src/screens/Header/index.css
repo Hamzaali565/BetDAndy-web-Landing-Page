@@ -6,6 +6,11 @@
     align-items: center;
     border-bottom: blue;
     padding: 10px 0;
+
+}
+
+.imagea {
+    /* border: 1px solid blue; */
 }
 
 .secondContainer {
@@ -17,15 +22,24 @@
 
 .pages {
     display: flex;
-    /* width: 100%; */
-    flex-wrap: wrap;
+    /* width: 70%; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
     font-size: 12px;
+
+    /* border: 1px solid red; */
+}
+
+.log:hover {
+    opacity: 0.6;
 }
 
 .pagestext {
     color: white;
     margin-left: 10px;
     cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .pagestext:hover {
@@ -34,17 +48,25 @@
 }
 
 .Button1 {
-    background-color: red;
+    background-color: #CE9134;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     padding: 15px 20px;
-    color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 18px;
+    transition: 0.3s;
+}
+
+.Button1:hover {
+    opacity: 0.6;
 }
 
 .log {
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .logButtons {
@@ -70,10 +92,9 @@
     }
 
     .Button1 {
-        background-color: red;
+        /* background-color: red; */
         border: none;
         padding: 15px 20px;
-        color: white;
         font-size: 18px;
     }
 
@@ -85,10 +106,9 @@
 
 @media only screen and (max-width: 425px) {
     .Button1 {
-        background-color: red;
+        /* background-color: red; */
         border: none;
         padding: 15px 20px;
-        color: white;
         font-size: 10px;
     }
 
@@ -109,10 +129,9 @@
 
 @media only screen and (max-width: 375px) {
     .Button1 {
-        background-color: red;
+        /* background-color: red; */
         border: none;
         padding: 15px 15px;
-        color: white;
         font-size: 10px;
     }
 
@@ -133,10 +152,9 @@
 
 @media only screen and (max-width: 320px) {
     .Button1 {
-        background-color: red;
+        /* background-color: red; */
         border: none;
-        padding: 15px 5px;
-        color: white;
+        padding: 10px 5px;
         font-size: 10px;
     }
 

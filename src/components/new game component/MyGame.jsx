@@ -1,6 +1,9 @@
 import React from "react";
 import "./Index.css";
 const MyGame = ({ heading, text, btntext, source }) => {
+  const Move = () => {
+    window.open("https://www.slotocash.im/");
+  };
   return (
     <div className="GameContainer">
       {/* image */}
@@ -12,7 +15,7 @@ const MyGame = ({ heading, text, btntext, source }) => {
       <div className="GameTextContainer">
         <p className="GameText">{text}</p>
       </div>
-      <div className="GameButtonContainer">
+      <div className="GameButtonContainer" onClick={Move}>
         <button className="GameButton">{btntext}</button>
       </div>
     </div>

@@ -5,17 +5,22 @@
     justify-content: center;
     padding: 10px 40px;
     cursor: pointer;
+    transition: 0.3s;
     /* margin: 10px; */
 }
 
 .mainContainer6:hover {
-    background-color: gray;
+    opacity: 0.6;
 }
 
 .buttonTitle {
     text-align: center;
     color: white;
+    /* font-size: large; */
+    font-family: 'Montserrat', sans-serif;
 }
+
+
 
 /* .buttonIcon{
     display: block;
@@ -30,7 +35,7 @@
 @media only screen and (max-width: 768px) {
 
     .mainContainer6 {
-        padding: 10px 40px;
+        padding: 10px 30px;
     }
 
     .buttonIcon {
@@ -39,37 +44,24 @@
     }
 
     .buttonTitle {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
 @media only screen and (max-width: 425px) {
 
-    .mainContainer6 {
-        padding: 10px 10px;
-        flex-direction: column;
-    }
-
-    .buttonIcon {
-        height: 15px;
-        width: 15px;
-    }
-
     .buttonTitle {
-        font-size: 10px;
+        display: none;
     }
 }
 
 @media only screen and (max-width: 375px) {
 
     .mainContainer6 {
-        padding: 10px 7px;
+        padding: 10px 20px;
     }
 
-    .buttonIcon {
-        height: 12px;
-        width: 12px;
-    }
+
 
     .buttonTitle {
         font-size: 10px;
@@ -79,13 +71,9 @@
 @media only screen and (max-width: 320px) {
 
     .mainContainer6 {
-        padding: 10px 10px;
+        padding: 10px 20px;
     }
 
-    .buttonIcon {
-        height: 12px;
-        width: 12px;
-    }
 
     .buttonTitle {
         font-size: 8px;

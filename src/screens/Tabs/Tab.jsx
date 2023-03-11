@@ -8,6 +8,9 @@ const Tab = () => {
   const [tab2, setTab2] = useState(false);
   const [tab3, setTab3] = useState(false);
   const [tab4, setTab4] = useState(false);
+  const Move = () => {
+    window.open("https://www.slotocash.im/");
+  };
   const FirstTab = () => {
     setTab2(false);
     setTab3(false);
@@ -40,7 +43,7 @@ const Tab = () => {
           <Tabbutton
             Mycolor={tab1 ? "gray" : " #3A3A3A"}
             id="button1"
-            title="Feactured Games"
+            title="Featured Games"
             source={require("../../images/TabButtonIcons/2.png")}
             // source="https://www.slotocash.im/images/icons/white_diamond.png"
             onclick={() => {
@@ -128,8 +131,10 @@ const Tab = () => {
               source8={require("../../images/Tab4/8.jpg")}
             />
           ) : null}
-          <div className="btContainer">
-            <button className="tabButton">SEE ALL GAMES</button>
+          <div className="btContainer" onClick={Move}>
+            <button className="tabButton" style={{ fontWeight: "600" }}>
+              SEE ALL GAMES
+            </button>
           </div>
         </div>
       </div>

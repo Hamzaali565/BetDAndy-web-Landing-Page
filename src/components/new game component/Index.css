@@ -2,6 +2,8 @@
     border: 1px solid black;
     width: 20%;
     background-color: WHITE;
+    position: relative;
+    padding-bottom: 4em;
     /* height: 30%; */
 }
 
@@ -11,20 +13,23 @@
 
 .GameHeading {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     display: flex;
     justify-content: flex-start;
     padding: 6px 0;
     margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .GameTextContainer {
     padding: 0 1.5em;
+
 }
 
 .GameText {
-    line-height: 25px;
-    font-weight: 400;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .GameButton {
@@ -34,11 +39,26 @@
     border: none;
     padding: 10px 0;
     cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
     /* bottom: 10; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.GameButton:hover {
+    /* font-size: 25px; */
+    opacity: 0.6;
+    /* transition-duration: 0.2s; */
+
 }
 
 .GameButtonContainer {
     margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.3s;
     /* position: relative;
     bottom: 0; */
 }
@@ -46,7 +66,9 @@
 @media only screen and (max-width: 1024px) {
     .GameContainer {
         width: 22%;
-        height: 20%;
+        /* height: 20%; */
+        position: relative;
+        padding-bottom: 4em;
     }
 
     .GameText {
