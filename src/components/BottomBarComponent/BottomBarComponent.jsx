@@ -8,9 +8,6 @@ import {
   Facebook,
 } from "@mui/icons-material";
 const BottomBarComponent = () => {
-  const Move = () => {
-    window.open("https://www.slotocash.im/");
-  };
   return (
     <div className="BBarContainer">
       <div className="newLineContainer">
@@ -18,63 +15,63 @@ const BottomBarComponent = () => {
       </div>
       <div className="BBarContainer1">
         <div className="BBarContainer2">
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/1.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/2.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/3.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/4.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/5.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/6.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/7.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/8.png")}
               alt=""
             />
           </div>
-          <div onClick={Move}>
+          <div>
             <img
               className="paymentMethod"
               src={require("../../images/bottom images/9.png")}
