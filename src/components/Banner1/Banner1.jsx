@@ -5,7 +5,7 @@ const Banner1 = () => {
     <div className="BannerMainContainer">
       <div className="BannerMainContainer2">
         <div className="BannerText">
-          Our team at Sloto'Cash has developed a revolutionary paper-printed
+          Our team at BetDandy has developed a revolutionary paper-printed
           magazine that will change the online gambling world forever. Packed
           with engaging articles on critical gambling topics, entertainment and
           contest sections, and segments on how to lead a fulfilling and

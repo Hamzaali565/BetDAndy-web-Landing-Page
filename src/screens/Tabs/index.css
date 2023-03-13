@@ -7,6 +7,8 @@
 
 .container9 {
     padding: 0 12em;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .tabs {
@@ -33,14 +35,7 @@
 }
 
 .tabButton {
-    /* background-color: #0076A1;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 17px;
-    padding: 10px 25px;
-    font-weight: 200;
-    border-radius: 5px; */
+
     background-color: #CE9134;
     border: none;
     border-radius: 5px;

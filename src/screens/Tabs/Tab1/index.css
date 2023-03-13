@@ -1,11 +1,27 @@
 .Container3 {
     padding: 1em 1em;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .imagesContainer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/* change */
+.imagesContainer>div {
+    width: 23%;
+    margin-bottom: 2%;
+    padding: 0 1%;
+}
+
+/* change */
+.imagesContainer>div>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .imagesContainer2 {
@@ -16,8 +32,6 @@
 }
 
 .mainImage {
-    height: 180px;
-    width: 220px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -26,11 +40,7 @@
     opacity: 0.6;
 }
 
-@media only screen and (max-width: 768px) {
-    /* .Container3 {
-        background-color: red;
-    } */
-
+/* @media only screen and (max-width: 768px) {
     .imagesContainer {
         flex-wrap: wrap;
     }
@@ -43,23 +53,40 @@
         height: 150px;
         width: 190px;
     }
-}
+} */
 
 @media only screen and (max-width: 425px) {
 
-    .Container3 {
-        /* background-color: red; */
-        /* padding: 1em em; */
+    .imagesContainer {
+        flex-wrap: wrap;
     }
+
+    .imagesContainer2 {
+        flex-wrap: wrap;
+    }
+
+    .imagesContainer>div>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .imagesContainer>div {
+        width: 45%;
+    }
+
+    /* .mainImage {
+        height: 150px;
+        width: 190px;
+    } */
 
     /* .imageBox {
         cursor: pointer;
     } */
 
-    .mainImage {
+    /* .mainImage {
         height: 130px;
         width: 150px;
-    }
+    } */
 
     /* .mainImage:hover {
         opacity: 0.6;
@@ -69,19 +96,19 @@
 
 @media only screen and (max-width: 390px) {
 
-    .mainImage {
+    /* .mainImage {
         height: 100px;
         width: 130px;
-    }
+    } */
 
 }
 
 @media only screen and (max-width: 393px) {
 
-    .mainImage {
+    /* .mainImage {
         height: 100px;
         width: 130px;
-    }
+    } */
 
 }
 
@@ -89,10 +116,10 @@
 
 
 
-    .mainImage {
+    /* .mainImage {
         height: 100px;
         width: 130px;
-    }
+    } */
 
 }
 
@@ -101,9 +128,9 @@
     /* .Container3 {
         background-color: red;
     } */
-    .mainImage {
+    /* .mainImage {
         height: 100px;
         width: 120px;
-    }
+    } */
 
 }

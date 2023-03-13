@@ -1,6 +1,8 @@
 .BBarContainer2 {
     display: flex;
     justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .BBarContainer2 {
@@ -21,6 +23,8 @@
     height: 10px;
     background-color: #0076A1;
     width: 90%;
+    /* max-width: 1600px;
+    margin: 0 auto; */
 }
 
 .iconMainContainer {

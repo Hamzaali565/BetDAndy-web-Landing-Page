@@ -2,11 +2,18 @@
     /* background-color: #002B3A; */
     background-color: #1B1212;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* padding: 0 2em; */
+    max-width: 1600px;
+    margin: 0 auto;
     align-items: center;
     border-bottom: blue;
-    padding: 10px 0;
+    padding: 10px 2em;
 
+}
+
+.Container1 {
+    background-color: #1B1212;
 }
 
 .imagea {

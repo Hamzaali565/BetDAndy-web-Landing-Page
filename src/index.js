@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import { setConfig } from '@google-cloud/translate'
 // import { setConfig } from 'react-google-translate'
 // import { setConfig } from 'react-google-translate'
 // setConfig({
-//   clientEmail: process.env.REACT_APP_GCP_CLIENT_EMAIL ?? '',
-//   privateKey: process.env.REACT_APP_GCP_PRIVATE_KEY ?? '',
+//   //   clientEmail: process.env.REACT_APP_GCP_CLIENT_EMAIL ?? '',
+//   //   privateKey: process.env.REACT_APP_GCP_PRIVATE_KEY ?? '',
 //   projectId: process.env.REACT_APP_GCP_PROJECT_ID ?? ''
 // })
 const root = ReactDOM.createRoot(document.getElementById('root'));

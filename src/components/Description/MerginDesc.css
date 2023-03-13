@@ -1,5 +1,7 @@
 .mergeContainer {
     display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
     /* justify-content: space-around; */
     /* justify-content: space-between; */
 }

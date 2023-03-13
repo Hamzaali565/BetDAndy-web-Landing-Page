@@ -16,11 +16,45 @@ import MerginDescription from './components/Description/MerginDescription';
 import Description from './screens/Description/Description';
 import BottomBarComponent from './components/BottomBarComponent/BottomBarComponent';
 import Footer from './screens/Footer/Footer';
-// import Header from './screens/Header/Header';
+import { useEffect, useState } from 'react';
+import './App.css'
 
 function App() {
+  const [language, setLanguages] = useState('');
+  // console.log(language);
+  // useEffect(() => {
+  //   console.log(language);
+  // }, [])
+
+  // let data = document.querySelector('#header').innerHTML
+  // console.log(data);
+  // useEffect(() => {
+  //   let text = document.getElementById("CR").innerText;
+  //   console.log(text);
+  //   const response = axios
+  //     .post(
+  //       "https://translation.googleapis.com/language/translate/v2",
+  //       {},
+  //       {
+  //         params: {
+  //           q: `${text}`,
+  //           target: language,
+  //           key: "AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM",
+  //         },
+  //       }
+  //     )
+  //     .then((response) => {
+  //       setConvertedText(response.data.data.translations[0].translatedText);
+  //       console.log("====================================");
+  //       console.log(response.data.data.translations[0].translatedText);
+  //       console.log("====================================");
+  //     })
+  //     .catch((err) => {
+  //       console.log("rest api error", err);
+  //     });
+  // }, [language]);
   return (
-    <div>
+    <div className='mainDiv'>
       <Header />
       <Banner />
       <Tab />

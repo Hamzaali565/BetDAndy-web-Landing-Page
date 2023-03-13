@@ -1,5 +1,7 @@
 .BannerMainContainer {
     background-color: #0076A1;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .BannerMainContainer2 {

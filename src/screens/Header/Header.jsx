@@ -1,20 +1,21 @@
 import React from "react";
 import "./index.css";
-const Header = () => {
+const Header = ({ headerId1, headerId2 }) => {
   const Move = () => {
     window.open("https://www.slotocash.im/");
   };
   return (
-    <div className="Container">
-      {/* logo */}
-      <div className="imagea">
-        <img
-          className="image"
-          src={require("../../images/headerimage/header.png")}
-          alt=""
-        />
-      </div>
-      <div
+    <div className="Container1">
+      <div className="Container">
+        {/* logo */}
+        <div className="imagea">
+          <img
+            className="image"
+            src={require("../../images/headerimage/header.png")}
+            alt=""
+          />
+        </div>
+        {/* <div
         className="secondContainer"
         style={{
           display: "flex",
@@ -22,20 +23,19 @@ const Header = () => {
           width: "50%",
           alignItems: "center",
         }}
-      >
+      > */}
         {/* Pages */}
-        <div className="pages">
-          <p className="pagestext" onClick={Move}>
+        {/* <div className="pages">
+          <p className="pagestext" id={headerId1} onClick={Move}>
             PROMOTIONS
           </p>
-          {/* <p className="pagestext">DOWNLOAD</p> */}
-          <p className="pagestext" onClick={Move}>
+          <p className="pagestext" id={headerId2} onClick={Move}>
             SLOTO WORLD
           </p>
           <p className="pagestext" onClick={Move}>
             BANKING
           </p>
-        </div>
+        </div> */}
         {/* Button */}
         <div>
           <button className="Button1" onClick={Move}>
@@ -43,8 +43,7 @@ const Header = () => {
           </button>
         </div>
         {/* log  */}
-        <div className="logButtons">
-          {/* login */}
+        {/* <div className="logButtons">
           <div onClick={Move}>
             <img
               className="log"
@@ -52,7 +51,6 @@ const Header = () => {
               alt=""
             />
           </div>
-          {/* signup */}
           <div onClick={Move}>
             <img
               className="log"
@@ -60,7 +58,8 @@ const Header = () => {
               alt=""
             />
           </div>
-        </div>
+        </div> */}
+        {/* </div> */}
       </div>
     </div>
   );
