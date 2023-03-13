@@ -22,34 +22,34 @@ const Tab1 = ({
         <div onClick={Move} className="imageBox">
           <img
             src={source1}
-            alt="Image Here"
+            alt=""
             className="mainImage"
             // style={{ cursor: "pointer" }}
           />
         </div>
         <div onClick={Move}>
-          <img src={source2} alt="Image Here" className="mainImage" />
+          <img src={source2} alt="" className="mainImage" />
         </div>
         <div onClick={Move}>
-          <img src={source3} alt="Image Here" className="mainImage" />
+          <img src={source3} alt="" className="mainImage" />
         </div>
         <div onClick={Move}>
-          <img src={source4} alt="Image Here" className="mainImage" />
+          <img src={source4} alt="" className="mainImage" />
         </div>
         {/* </div> */}
         {/* 2 */}
         {/* <div className="imagesContainer2"> */}
         <div onClick={Move}>
-          <img src={source5} alt="Image Here" className="mainImage" />
+          <img src={source5} alt="" className="mainImage" />
         </div>
         <div onClick={Move}>
-          <img src={source6} alt="Image Here" className="mainImage" />
+          <img src={source6} alt="" className="mainImage" />
         </div>
         <div onClick={Move}>
-          <img src={source7} alt="Image Here" className="mainImage" />
+          <img src={source7} alt="" className="mainImage" />
         </div>
         <div onClick={Move}>
-          <img src={source8} alt="Image Here" className="mainImage" />
+          <img src={source8} alt="" className="mainImage" />
         </div>
       </div>
       {/* //{" "} */}

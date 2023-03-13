@@ -7,7 +7,6 @@ import {
   LinkedIn,
   Facebook,
 } from "@mui/icons-material";
-import { fontSize } from "@mui/system";
 const BottomBarComponent = () => {
   const Move = () => {
     window.open("https://www.slotocash.im/");
