@@ -6,10 +6,6 @@ import Banner01 from './screens/Banner1/Banner01';
 import Description from './screens/Description/Description';
 import Footer from './screens/Footer/Footer';
 import './App.css'
-import MerginDescription from './components/Description/MerginDescription';
-import ForDesc from './components/ForDesc';
-import NewMerge from './components/NewMerge';
-import CardDesc from './screens/Description001/CardDesc';
 
 function App() {
 

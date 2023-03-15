@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 // import Micheal from "../../assets/Micheal";
 import Tabbutton from "../../components/TabButton";
 import "./index.css";
 import Tab1 from "./Tab1/Tab1";
-import AOS from "aos";
 import "aos/dist/aos.css";
 const Tab = () => {
   const [tab1, setTab1] = useState(true);

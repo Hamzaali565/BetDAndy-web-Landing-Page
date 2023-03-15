@@ -1,8 +1,6 @@
 import React from "react";
 import "./index.css";
 import "animate.css";
-import { fadeIn } from "react-animations";
-import { StyleSheet, css } from "aphrodite";
 import {
   YouTube,
   Instagram,
@@ -10,12 +8,6 @@ import {
   LinkedIn,
   Facebook,
 } from "@mui/icons-material";
-const styles = StyleSheet.create({
-  bounce: {
-    animationName: fadeIn,
-    animationDuration: "1s",
-  },
-});
 const BottomBarComponent = () => {
   return (
     <div className="BBarContainer">

@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import MerginDescription from "../../components/Description/MerginDescription";
+import React from "react";
 import NewMerge from "../../components/NewMerge";
 import "./index.css";
 const Description = () => {
