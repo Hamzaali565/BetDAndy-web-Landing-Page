@@ -1,10 +1,18 @@
 import React from "react";
 import "./index.css";
+import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Banner1 = () => {
+  let use = AOS.init();
   return (
     <div className="BannerMainContainer">
       <div className="BannerMainContainer2">
-        <div className="BannerText">
+        <div
+          className="BannerText"
+          data-aos="slide-up"
+          data-aos-duration="1000"
+        >
           Our team at BetDandy has developed a revolutionary paper-printed
           magazine that will change the online gambling world forever. Packed
           with engaging articles on critical gambling topics, entertainment and
@@ -14,6 +22,8 @@ const Banner1 = () => {
         </div>
         <div className="BannerImage">
           <img
+            data-aos="slide-up"
+            data-aos-duration="1000"
             className="mainBannerImage"
             src={require("../../images/Banner1 Image/1.jpg")}
             alt=""

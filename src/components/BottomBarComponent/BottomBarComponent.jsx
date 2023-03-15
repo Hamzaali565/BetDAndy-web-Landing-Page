@@ -1,5 +1,8 @@
 import React from "react";
 import "./index.css";
+import "animate.css";
+import { fadeIn } from "react-animations";
+import { StyleSheet, css } from "aphrodite";
 import {
   YouTube,
   Instagram,
@@ -7,6 +10,12 @@ import {
   LinkedIn,
   Facebook,
 } from "@mui/icons-material";
+const styles = StyleSheet.create({
+  bounce: {
+    animationName: fadeIn,
+    animationDuration: "1s",
+  },
+});
 const BottomBarComponent = () => {
   return (
     <div className="BBarContainer">
@@ -83,28 +92,48 @@ const BottomBarComponent = () => {
           <div className="iconContainer">
             <Instagram
               className="icon"
-              style={{ color: "#C33E71", fontSize: "30px", cursor: "pointer" }}
+              style={{
+                color: "#C33E71",
+                fontSize: "30px",
+                cursor: "pointer",
+                transition: "0.3s",
+              }}
             />
             <YouTube
               className="icon"
               style={{
                 color: "#E40000",
-                // transition: "0.3s",
+                transition: "0.3s",
                 fontSize: "30px",
                 cursor: "pointer",
               }}
             />
             <Twitter
               className="icon"
-              style={{ color: "#1C9CEA", fontSize: "30px", cursor: "pointer" }}
+              style={{
+                color: "#1C9CEA",
+                fontSize: "30px",
+                cursor: "pointer",
+                transition: "0.3s",
+              }}
             />
             <LinkedIn
               className="icon"
-              style={{ color: "#2566AC", fontSize: "30px", cursor: "pointer" }}
+              style={{
+                color: "#2566AC",
+                fontSize: "30px",
+                cursor: "pointer",
+                transition: "0.3s",
+              }}
             />
             <Facebook
               className="icon"
-              style={{ color: "#1773EA", fontSize: "30px", cursor: "pointer" }}
+              style={{
+                color: "#1773EA",
+                fontSize: "30px",
+                cursor: "pointer",
+                transition: "0.3s",
+              }}
             />
           </div>
         </div>

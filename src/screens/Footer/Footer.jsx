@@ -39,8 +39,8 @@ const Footer = () => {
           )}
         />
         <div className="CopyRightText" id="CR">
-          "Copyright © 2023 2023 BetDandy. All Rights Reserved. You must be
-          atleast 18 years of age to play."
+          Copyright © 2023 BetDandy. All Rights Reserved. You must be atleast 18
+          years of age to play.
         </div>
       </div>
     </div>

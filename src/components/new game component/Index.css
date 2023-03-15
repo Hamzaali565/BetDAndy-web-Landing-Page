@@ -1,13 +1,21 @@
 .GameContainer {
-    border: 1px solid black;
+    border: 1px solid #212236;
     width: 20%;
-    background-color: WHITE;
+    background-color: #EDEADE;
     position: relative;
+    border-radius: 10px;
+    /* border-bottom: 10px; */
     padding-bottom: 4em;
+    transition: 0.3s;
     /* height: 30%; */
 }
 
+.GameContainer:hover {
+    transform: scale(1.1);
+}
+
 .GameImage>img {
+    border-radius: 10px 10px 0 0;
     width: 100%;
 }
 
@@ -30,6 +38,7 @@
     line-height: 22px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    /* width: 98%; */
 }
 
 .GameButton {
@@ -37,6 +46,7 @@
     font-size: 20px;
     background-color: #CE9134;
     border: none;
+    border-radius: 0 0 10px 10px;
     padding: 10px 0;
     cursor: pointer;
     font-weight: 600;
@@ -57,6 +67,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    /* top: 10 !important; */
     width: 100%;
     transition: 0.3s;
     /* position: relative;
@@ -67,7 +78,7 @@
     .GameContainer {
         width: 22%;
         /* height: 20%; */
-        position: relative;
+        position: relative !important;
         padding-bottom: 4em;
     }
 
@@ -101,7 +112,7 @@
 
 @media only screen and (max-width: 425px) {
     .GameContainer {
-        width: 90%;
+        width: 80%;
     }
 
     .GameText {

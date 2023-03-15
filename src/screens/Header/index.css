@@ -1,6 +1,6 @@
 .Container {
     /* background-color: #002B3A; */
-    background-color: #1B1212;
+    /* background-color: #1B1212; */
     display: flex;
     justify-content: space-between;
     /* padding: 0 2em; */
@@ -13,11 +13,11 @@
 }
 
 .Container1 {
-    background-color: #1B1212;
+    background: linear-gradient(41deg, #303030, #072e61);
 }
 
-.imagea {
-    /* border: 1px solid blue; */
+.image {
+    object-fit: contain;
 }
 
 .secondContainer {
@@ -107,7 +107,7 @@
 
     .image {
         height: 100px;
-        width: 140px;
+        width: 160px;
     }
 }
 
@@ -121,7 +121,7 @@
 
     .image {
         height: 80px;
-        width: 100px;
+        width: 160px;
     }
 
     .log {
@@ -144,7 +144,7 @@
 
     .image {
         height: 80px;
-        width: 100px;
+        width: 120px;
     }
 
     .log {
@@ -165,10 +165,10 @@
         font-size: 10px;
     }
 
-    .image {
+    /* .image {
         height: 80px;
         width: 100px;
-    }
+    } */
 
     .log {
         height: 40px;

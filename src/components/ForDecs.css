@@ -1,0 +1,79 @@
+.forContainer {
+    width: 500px;
+    margin: 40px auto;
+    /* border: 1px solid white; */
+    padding: 3em 1em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(327deg, #242738, #242738);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+
+.Heading22 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #919191;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text22 {
+    /* width: 90%; */
+    color: #919191;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+    .forContainer {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .forContainer {
+        width: 80%;
+    }
+
+    .Heading22 {
+
+        font-size: 20px;
+
+    }
+
+    .text22 {
+        color: #919191;
+        line-height: 25px;
+        font-size: 15px;
+        /* margin-top: 20px; */
+        /* padding: 0 1em 0 1em; */
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .forContainer {
+        /* margin-left: 5%; */
+        width: 80%;
+    }
+
+    .text22 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .Heading22 {
+        width: 100%;
+        font-size: 18px;
+        text-align: left;
+    }
+}
+
+/* @media only screen and (max-width: 425px) {
+
+} */

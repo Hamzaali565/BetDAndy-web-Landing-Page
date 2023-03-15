@@ -1,0 +1,30 @@
+.NewMergeContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1440px) {
+    .NewMergeContainer {
+        /* margin-left: 7%; */
+
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .NewMergeContainer {
+        margin-left: 0%;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .NewMergeContainer {
+        flex-direction: column;
+        /* align-content: center;
+        align-self: center;
+        align-items: center;
+        justify-content: center; */
+    }
+}

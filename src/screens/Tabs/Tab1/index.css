@@ -2,6 +2,7 @@
     padding: 1em 1em;
     max-width: 1600px;
     margin: 0 auto;
+    /* background-color: red; */
 }
 
 .imagesContainer {
@@ -28,12 +29,14 @@
     /* margin-top: 5px; */
     display: flex;
     justify-content: space-between;
+
     /* flex-wrap: wrap; */
 }
 
 .mainImage {
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 10px;
 }
 
 .mainImage:hover {

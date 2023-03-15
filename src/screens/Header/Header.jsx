@@ -11,7 +11,7 @@ const Header = ({ headerId1, headerId2 }) => {
         <div className="imagea">
           <img
             className="image"
-            src={require("../../images/headerimage/header.png")}
+            src={require("../../images/headerimage/Newlogo.png")}
             alt=""
           />
         </div>

@@ -1,0 +1,82 @@
+.langCR {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+
+    padding: 1em 2em;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 70px;
+    color: navy;
+    white-space: nowrap;
+}
+
+.DDown>.goog-te-gadget {
+    color: black;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+    display: none;
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: 4px 0;
+    width: 15em;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+/* .DDown {
+    width: 50%;
+} */
+.CR {
+    font-family: 'Montserrat', sans-serif;
+    color: #919191;
+    margin-top: 15px;
+}
+
+body>.skiptranslate {
+    display: none;
+}
+
+body {
+    top: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .CR {
+        font-size: 10px;
+    }
+
+    .goog-te-gadget .goog-te-combo {
+        width: 12em;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .langCR {
+        flex-direction: column-reverse;
+
+    }
+
+    .goog-te-gadget .goog-te-combo {
+        width: 15em;
+    }
+
+    .CR {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 0px;
+    }
+
+    .DDown {
+        margin: 10px auto;
+
+    }
+}

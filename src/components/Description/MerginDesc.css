@@ -6,6 +6,10 @@
     /* justify-content: space-between; */
 }
 
+/* .mergeContainer>div>div {
+    background-color: aqua;
+} */
+
 @media only screen and (max-width: 425px) {
     .mergeContainer {
         flex-direction: column;

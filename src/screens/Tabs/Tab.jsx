@@ -1,13 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import Micheal from "../../assets/Micheal";
 import Tabbutton from "../../components/TabButton";
 import "./index.css";
 import Tab1 from "./Tab1/Tab1";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Tab = () => {
   const [tab1, setTab1] = useState(true);
   const [tab2, setTab2] = useState(false);
   const [tab3, setTab3] = useState(false);
   const [tab4, setTab4] = useState(false);
+  // useEffect(() => {
+  //   AOS.init({ duration: 1500 });
+  // }, []);
   const Move = () => {
     window.open("https://www.slotocash.im/");
   };
@@ -37,7 +42,11 @@ const Tab = () => {
   };
   return (
     <div className="container8">
-      <div className="container9">
+      <div
+        className="container9"
+        data-aos="slide-right"
+        data-aos-duration="500"
+      >
         <div className="line" />
         <div className="fourButtons">
           <Tabbutton
