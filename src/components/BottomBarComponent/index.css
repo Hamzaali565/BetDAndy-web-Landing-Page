@@ -17,12 +17,14 @@
 .newLineContainer {
     display: flex;
     justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .newMainLine {
-    height: 10px;
-    background-color: #0076A1;
-    width: 90%;
+    height: 5px;
+    background-color: #2B2E5D;
+    width: 95%;
     /* max-width: 1600px;
     margin: 0 auto; */
 }

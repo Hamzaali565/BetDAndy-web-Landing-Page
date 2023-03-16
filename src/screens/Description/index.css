@@ -3,7 +3,26 @@
 }
 
 .descriptionContain2 {
-    padding: 1em 0;
+    padding: 1em 10em;
+    position: relative;
     /* display: flex; */
     /* justify-content: center; */
+}
+
+@media only screen and (max-width: 1024px) {
+    .descriptionContain2 {
+        padding: 1em 5em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .descriptionContain2 {
+        padding: 1em 0em;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .descriptionContain2 {
+        padding: 0;
+    }
 }

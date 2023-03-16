@@ -1,5 +1,6 @@
 .cardMainContainer {
-    background: linear-gradient(83deg, black, #212237);
+    /* background: linear-gradient(83deg, black, #212237); */
+    background-color: #202137;
 }
 
 .cardMainContainer2 {

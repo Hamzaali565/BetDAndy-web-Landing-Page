@@ -49,7 +49,7 @@ const Tab = () => {
         <div className="line" />
         <div className="fourButtons">
           <Tabbutton
-            Mycolor={tab1 ? "gray" : " #3A3A3A"}
+            Mycolor={tab1 ? "#0076a1" : " #292D5B"}
             id="button1"
             title="Featured Games"
             source={require("../../images/TabButtonIcons/2.png")}
@@ -59,7 +59,7 @@ const Tab = () => {
             }}
           />
           <Tabbutton
-            Mycolor={tab2 ? "gray" : " #3A3A3A"}
+            Mycolor={tab2 ? "#0076a1" : " #292D5B"}
             title="Slots Games"
             source={require("../../images/TabButtonIcons/1.png")}
             // source="https://www.slotocash.im/images/icons/white_cherry.png"
@@ -68,7 +68,7 @@ const Tab = () => {
             }}
           />
           <Tabbutton
-            Mycolor={tab3 ? "gray" : " #3A3A3A"}
+            Mycolor={tab3 ? "#0076a1" : " #292D5B"}
             title="Other Games"
             source={require("../../images/TabButtonIcons/3.png")}
             // source="https://www.slotocash.im/images/icons/white_seven.png"
@@ -77,7 +77,7 @@ const Tab = () => {
             }}
           />
           <Tabbutton
-            Mycolor={tab4 ? "gray" : " #3A3A3A"}
+            Mycolor={tab4 ? "#0076a1" : " #292D5B"}
             title="New Games"
             source={require("../../images/TabButtonIcons/2.png")}
             // source="https://www.slotocash.im/images/icons/white_diamond.png"

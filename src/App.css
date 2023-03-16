@@ -2,3 +2,29 @@
     /* display: flex;
     justify-content: space-around; */
 }
+
+.text22 {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.forContainer:after {
+    content: '';
+    width: 17em;
+    height: 17em;
+    background: url("https://cdn-icons-png.flaticon.com/512/8893/8893407.png");
+    position: absolute;
+    bottom: -3em;
+    right: -4em;
+    display: inline-block;
+    background-size: contain;
+    opacity: 0.1;
+}
+
+.forContainer {
+    overflow: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}

@@ -4,12 +4,16 @@
     align-items: center;
     justify-content: center;
     /* padding: 10px 40px; */
-    padding: 5px 5px;
+    padding: 5px 15px;
     cursor: pointer;
     transition: 0.3s;
     /* width: 25%; */
     border-radius: 10px;
     /* margin: 10px; */
+}
+
+.mainContainer6 img.buttonIcon {
+    /* margin-right: 5px; */
 }
 
 .mainContainer6:hover {
@@ -19,7 +23,7 @@
 .buttonTitle {
     text-align: center;
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     /* font-size: large; */
     font-family: 'Montserrat', sans-serif;
 }

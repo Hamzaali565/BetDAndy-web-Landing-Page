@@ -3,6 +3,40 @@
     justify-content: space-around;
     max-width: 1600px;
     margin: 0 auto;
+    /* position: relative; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.NewMergeContainer>div {
+    position: relative;
+    width: 48%;
+    z-index: 1;
+}
+
+.NewMergeContainer:after {
+    content: '';
+    width: 30em;
+    height: 30em;
+    position: absolute;
+    top: 129em;
+    right: -7em;
+    background: url('https://cdn-icons-png.flaticon.com/512/4330/4330544.png');
+    display: inline-block;
+    background-size: cover;
+    z-index: 0
+}
+
+.NewMergeContainer:before {
+    content: '';
+    width: 30em;
+    height: 30em;
+    position: absolute;
+    top: 29em;
+    left: -7em;
+    background: url("https://cdn-icons-png.flaticon.com/512/9590/9590099.png");
+    display: inline-block;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -17,14 +51,26 @@
         margin-left: 0%;
 
     }
+
+
+}
+
+@media only screen and (max-width:767px) {
+    .NewMergeContainer>div {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .NewMergeContainer {
         flex-direction: column;
-        /* align-content: center;
-        align-self: center;
-        align-items: center;
-        justify-content: center; */
+    }
+
+    .NewMergeContainer:after {
+        content: none;
+    }
+
+    .NewMergeContainer:before {
+        content: none;
     }
 }
