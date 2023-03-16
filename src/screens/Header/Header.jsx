@@ -1,9 +1,6 @@
 import React from "react";
 import "./index.css";
 const Header = ({ headerId1, headerId2 }) => {
-  const Move = () => {
-    window.open("https://www.slotocash.im/");
-  };
   return (
     <div className="Container1">
       <div className="Container">
@@ -38,9 +35,7 @@ const Header = ({ headerId1, headerId2 }) => {
         </div> */}
         {/* Button */}
         <div>
-          <button className="Button1" onClick={Move}>
-            PLAY NOW
-          </button>
+          <button className="Button1">PLAY NOW</button>
         </div>
         {/* log  */}
         {/* <div className="logButtons">

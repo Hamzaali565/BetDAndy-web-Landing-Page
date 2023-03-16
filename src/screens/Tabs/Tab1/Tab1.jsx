@@ -11,45 +11,44 @@ const Tab1 = ({
   source6,
   source7,
   source8,
+  onClick,
 }) => {
-  const Move = () => {
-    window.open("https://www.slotocash.im/");
-  };
   return (
     <div className="Container3">
       {/* 1 */}
       <div className="imagesContainer">
-        <div onClick={Move} className="imageBox">
+        <div className="imageBox">
           <img
+            onClick={onClick}
             src={source1}
             alt=""
             className="mainImage"
             // style={{ cursor: "pointer" }}
           />
         </div>
-        <div onClick={Move}>
-          <img src={source2} alt="" className="mainImage" />
+        <div>
+          <img onClick={onClick} src={source2} alt="" className="mainImage" />
         </div>
-        <div onClick={Move}>
-          <img src={source3} alt="" className="mainImage" />
+        <div>
+          <img onClick={onClick} src={source3} alt="" className="mainImage" />
         </div>
-        <div onClick={Move}>
-          <img src={source4} alt="" className="mainImage" />
+        <div>
+          <img onClick={onClick} src={source4} alt="" className="mainImage" />
         </div>
         {/* </div> */}
         {/* 2 */}
         {/* <div className="imagesContainer2"> */}
-        <div onClick={Move}>
+        <div>
           <img src={source5} alt="" className="mainImage" />
         </div>
-        <div onClick={Move}>
-          <img src={source6} alt="" className="mainImage" />
+        <div>
+          <img onClick={onClick} src={source6} alt="" className="mainImage" />
         </div>
-        <div onClick={Move}>
-          <img src={source7} alt="" className="mainImage" />
+        <div>
+          <img onClick={onClick} src={source7} alt="" className="mainImage" />
         </div>
-        <div onClick={Move}>
-          <img src={source8} alt="" className="mainImage" />
+        <div>
+          <img onClick={onClick} src={source8} alt="" className="mainImage" />
         </div>
       </div>
       {/* //{" "} */}

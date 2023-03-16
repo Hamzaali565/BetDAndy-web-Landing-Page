@@ -15,6 +15,9 @@ const Tab = () => {
   const Move = () => {
     window.open("https://www.slotocash.im/");
   };
+  const MoveTo = () => {
+    window.open("https://miamiclubcasino.im/?c=464176&s=128413875");
+  };
   const FirstTab = () => {
     setTab2(false);
     setTab3(false);
@@ -90,6 +93,7 @@ const Tab = () => {
           {/* tab1 */}
           {tab1 ? (
             <Tab1
+              onClick={Move}
               source1={require("../../images/Tab1/1.jpg")}
               source2={require("../../images/Tab1/2.jpg")}
               source3={require("../../images/Tab1/3.jpg")}
@@ -103,6 +107,7 @@ const Tab = () => {
           {/* tab2 */}
           {tab2 ? (
             <Tab1
+              onClick={MoveTo}
               source1={require("../../images/Tab2/1.jpg")}
               source2={require("../../images/Tab2/2.jpg")}
               source3={require("../../images/Tab2/3.jpg")}
@@ -116,6 +121,7 @@ const Tab = () => {
           {/* tab3 */}
           {tab3 ? (
             <Tab1
+              onClick={Move}
               source1={require("../../images/Tab3/1.jpg")}
               source2={require("../../images/Tab3/2.jpg")}
               source3={require("../../images/Tab3/3.jpg")}
@@ -129,6 +135,7 @@ const Tab = () => {
           {/* tab4 */}
           {tab4 ? (
             <Tab1
+              onClick={MoveTo}
               source1={require("../../images/Tab4/1.jpg")}
               source2={require("../../images/Tab4/2.jpg")}
               source3={require("../../images/Tab4/3.jpg")}
@@ -139,7 +146,7 @@ const Tab = () => {
               source8={require("../../images/Tab4/8.jpg")}
             />
           ) : null}
-          <div className="btContainer" onClick={Move}>
+          <div className="btContainer">
             <button className="tabButton" style={{ fontWeight: "600" }}>
               SEE ALL GAMES
             </button>
