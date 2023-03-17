@@ -3,6 +3,13 @@
     background-color: #202137;
 }
 
+.blueLine {
+    height: 5px;
+    background-color: #0076A1;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .cardMainContainer2 {
     padding: 3.2em 0;
 }

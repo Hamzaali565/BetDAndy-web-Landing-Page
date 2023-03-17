@@ -1,89 +1,60 @@
 .container {
-    padding: 2em 0 2em 0;
+    padding: 6em 0 6em 0;
     background: url(../../images/hp-header.jpg);
     display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    margin: 0 auto;
 }
 
-.heading1 {
-    font-size: 70px;
-    font-weight: 700;
-    color: #E9E4EB;
-    font-family: 'Montserrat', sans-serif;
-
+.fieldInput {
+    width: 20%;
+    /* border: 1px solid red; */
 }
 
-.heading2 {
-    font-size: 35px;
-    font-weight: 300;
-    color: #E9E4EB;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
 
+
+.Icons {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.button1 {
-    margin-top: 20px;
-    background-color: #CE9134;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.3s;
-    padding: 15px 20px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+.icon:hover {
+    transform: scale(1.2);
 }
 
-.button1:hover {
-    opacity: 0.6;
+.DDown1>.goog-te-gadget {
+    color: #2D183F;
 }
 
-@media only screen and (max-width: 768px) {
-    .heading1 {
-        font-size: 50px;
+@media only screen and (max-width:700px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 3em 4em;
     }
 
-    .heading2 {
-        font-size: 30px;
+    .fieldInput {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .Icons {
+        /* justify-content: center; */
+        margin: 20px auto;
     }
 }
 
-@media only screen and (max-width: 425px) {
-    .heading1 {
-        font-size: 30px;
-    }
-
-    .heading2 {
-        font-size: 20px;
-        font-weight: 300;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .heading1 {
-        font-size: 30px;
-    }
-
-    .heading2 {
-        font-size: 15px;
-    }
-
-    .button1 {
-        padding: 10px 10px;
-        font-size: 12px;
+@media only screen and (max-width:375px) {
+    .fieldInput {
+        margin: 0 auto;
+        width: 80%;
     }
 }
 
 @media only screen and (max-width: 320px) {
-    .heading1 {
-        font-size: 23px;
-    }
-
-    .heading2 {
-        font-size: 15px;
+    .fieldInput {
+        width: 100%;
     }
 }

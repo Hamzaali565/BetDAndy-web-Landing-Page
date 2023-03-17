@@ -13,9 +13,11 @@ const MyGame = ({ heading, text, btntext, source, onClick }) => {
         <img src={source} alt="" />
       </div>
       {/* heading */}
-      <h5 className="GameHeading">{heading}</h5>
-      <div className="GameTextContainer">
-        <p className="GameText">{text}</p>
+      <div className="headindAndText">
+        <h5 className="GameHeading">{heading}</h5>
+        <div className="GameTextContainer">
+          <p className="GameText">{text}</p>
+        </div>
       </div>
       <div className="GameButtonContainer" onClick={onClick}>
         <button className="GameButton">{btntext}</button>

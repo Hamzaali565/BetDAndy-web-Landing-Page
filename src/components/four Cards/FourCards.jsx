@@ -12,20 +12,20 @@ const FourCards = () => {
     <div>
       <div className="MyGameContainer">
         <MyGame
-          onClick={Move}
-          heading="$800 WELCOME BONUS"
+          onClick={MoveTo}
+          heading="Miami Club"
           text="Get up to $800.00 in deposit bonuses by claiming the Miami Club Welcome Bonus. On your first eight purchases, you'll receive a 100% match, up to $100.00 each time. Lets enjoy with Miami"
-          btntext="$800 BONUS!"
+          btntext="Miami Club"
           source={require("../../images/CardImages/1.jpg")}
         />
         <MyGame
-          onClick={MoveTo}
-          heading="NEW GAMES"
+          onClick={Move}
+          heading="Sloto’Cash"
           text="Discover the latest additions to the game selection at Miami Club Casino, including Cleopatra's Keno, Safari Expedition, Wheel of Chance, Forest Frenzy, The Richest, and many more exciting games!"
-          btntext="NEW GAMES!"
+          btntext="Sloto’Cash"
           source={require("../../images/CardImages/2.png")}
         />
-        <MyGame
+        {/* <MyGame
           onClick={Move}
           heading="AT MIAMI CLUB"
           text="Take advantage of another amazing offer from Miami Club by using coupon code WILDLIFE. With this code, you can receive a 100% match bonus up to $200 and 35 spins on the Wheel."
@@ -37,27 +37,27 @@ const FourCards = () => {
           heading="$20 FREE!"
           text="Miami Club casino members can take advantage of the exclusive Instant Coupon MIFREE20 to receive $20.00 free every month! Don't miss out on this great opportunity to grab some extra cash."
           btntext="MIFREE20"
-          source={require("../../images/CardImages/1.jpg")}
-        />
+          source={require("../../images/CardImages/1.jpg")} */}
+        {/* /> */}
       </div>
       <div className="tablet">
         <div style={{ display: "flex", justifyContent: "space-around" }}>
           <MyGame
-            onClick={Move}
-            heading="$800 WELCOME BONUS"
+            onClick={MoveTo}
+            heading="Miami Club"
             text="Up to $800.00 in deposit bonuses! Claim the Miami Club Welcome Bonus and get 100% match, up to $100.00 on your first EIGHT purchases!"
-            btntext="$800 BONUS!"
+            btntext="Miami Club"
             source={require("../../images/CardImages/1.jpg")}
           />
           <MyGame
-            onClick={MoveTo}
+            onClick={Move}
             heading="NEW GAMES"
             text="The newest games at Miami Club casino! Cleopatra's Keno, Safari Expedition, Wheel of Chance, Forest Frenzy, The Richest, and more!"
-            btntext="NEW GAMES!"
+            btntext="Sloto’Cash"
             source={require("../../images/CardImages/2.png")}
           />
         </div>
-        <div
+        {/* <div
           style={{
             display: "flex",
             justifyContent: "space-around",
@@ -78,7 +78,7 @@ const FourCards = () => {
             btntext="MIFREE20"
             source={require("../../images/CardImages/1.jpg")}
           />
-        </div>
+        </div> */}
       </div>
       <div className="mobile">
         <div
@@ -89,11 +89,11 @@ const FourCards = () => {
           }}
         >
           <MyGame
-            onClick={Move}
-            heading="$800 WELCOME BONUS"
+            onClick={MoveTo}
+            heading="Miami Club"
             text="Up to $800.00 in deposit bonuses! Claim the Miami Club Welcome Bonus and get 100% match, up to $100.00 on your first EIGHT purchases!"
             source={require("../../images/CardImages/1.jpg")}
-            btntext="$800 BONUS!"
+            btntext="Miami Club"
           />
         </div>
         <div
@@ -104,14 +104,14 @@ const FourCards = () => {
           }}
         >
           <MyGame
-            onClick={MoveTo}
+            onClick={Move}
             heading="NEW GAMES"
             text="The newest games at Miami Club casino! Cleopatra's Keno, Safari Expedition, Wheel of Chance, Forest Frenzy, The Richest, and more!"
             source={require("../../images/CardImages/2.png")}
-            btntext="NEW GAMES!"
+            btntext="Sloto’Cash"
           />
         </div>
-        <div
+        {/* <div
           style={{
             display: "flex",
             justifyContent: "center",
@@ -140,7 +140,7 @@ const FourCards = () => {
             source={require("../../images/CardImages/1.jpg")}
             btntext="MIFREE20"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

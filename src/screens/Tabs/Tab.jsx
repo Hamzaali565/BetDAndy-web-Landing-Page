@@ -43,7 +43,7 @@ const Tab = () => {
     setTab1(false);
   };
   return (
-    <div className="container8">
+    <div className="container8" style={{ display: "none" }}>
       <div
         className="container9"
         data-aos="slide-right"
@@ -89,7 +89,7 @@ const Tab = () => {
             }}
           />
         </div>
-        <div className="tabs">
+        <div className="tabs" style={{ display: "none" }}>
           {/* tab1 */}
           {tab1 ? (
             <Tab1

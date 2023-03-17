@@ -4,6 +4,7 @@ import "./index.css";
 const Newgames = () => {
   return (
     <div className="cardMainContainer">
+      <div className="blueLine" />
       <div className="cardMainContainer2">
         <FourCards />
       </div>

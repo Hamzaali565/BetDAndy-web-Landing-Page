@@ -4,7 +4,7 @@ import "./index.css";
 const Banner01 = () => {
   return (
     <div className="Banner01Container">
-      <div>
+      <div style={{ display: "none" }}>
         <Banner1 />
       </div>
     </div>

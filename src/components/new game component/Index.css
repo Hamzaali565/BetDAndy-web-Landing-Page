@@ -1,11 +1,12 @@
 .GameContainer {
     border: 1px solid #212236;
-    width: 20%;
+    width: 40%;
+    /* height: 400px; */
     background-color: #EDEADE;
     position: relative;
     border-radius: 10px;
     /* border-bottom: 10px; */
-    padding-bottom: 4em;
+    padding-bottom: 3em;
     transition: 0.3s;
     /* height: 30%; */
 }
@@ -17,31 +18,37 @@
 .GameImage>img {
     border-radius: 8px 8px 0 0;
     width: 100%;
+    display: none;
 }
 
 .GameHeading {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 700;
     display: flex;
     justify-content: flex-start;
-    padding: 10px 0.7em;
-    margin-left: 10px;
+    /* padding: 30px 0.8em 0 0.9em; */
+    border-radius: 10px 10px 0 0;
+    /* margin-left: 2em; */
     font-family: 'Montserrat', sans-serif;
 }
 
+.headindAndText {
+    padding: 2em 3em;
+}
+
 .GameTextContainer {
-    padding: 0 0.7em;
-    margin-left: 10px;
+    padding: 1em 0;
+    /* margin-left: 10px; */
 
 }
 
 .GameText {
-    line-height: 17px;
-    font-weight: 600;
+    line-height: 30px;
+    font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     /* width: 98%; */
     padding: 0;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .GameButton {
@@ -79,26 +86,25 @@
 
 @media only screen and (max-width: 1024px) {
     .GameContainer {
-        width: 22%;
-        /* height: 20%; */
-        position: relative !important;
-        padding-bottom: 4em;
+        width: 40%;
     }
 
     .GameText {
-        font-size: 10px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
     }
 
     .GameHeading {
-        font-size: 16px;
-        font-weight: 700;
-        margin-left: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        /* padding: 30px 0.1em 0 0.1em; */
+        /* margin-left: 2em; */
 
     }
 
     .GameTextContainer {
-        padding: 0 1em 1em 1em;
+        /* padding: 1.5em 2em; */
     }
 }
 
@@ -109,7 +115,8 @@
 
     .GameText {
         font-size: 15px;
-        line-height: 22px;
+        line-height: 25px;
+        font-weight: 400;
     }
 }
 
@@ -119,13 +126,22 @@
     }
 
     .GameText {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    .GameTextContainer {
+        /* padding: 3em 1em; */
+    }
+
+    .GameHeading {
+        /* padding: 30px 0em 0 0em; */
     }
 }
 
-/* @media only screen and (max-width: 768px) {
-    .GameContainer {
-        width: 30%;
-    } */
-/* } */
+@media only screen and (max-width: 320px) {
+    .headindAndText {
+        padding: 2em 2em;
+    }
+}

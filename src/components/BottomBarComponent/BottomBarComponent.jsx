@@ -80,7 +80,7 @@ const BottomBarComponent = () => {
             />
           </div>
         </div>
-        <div className="iconMainContainer">
+        <div className="iconMainContainer" style={{ display: "none" }}>
           <div className="iconContainer">
             <Instagram
               className="icon"
