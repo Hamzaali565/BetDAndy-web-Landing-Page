@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7be4b762.css",
-    "main.js": "/static/js/main.cca33a21.js",
+    "main.css": "/static/css/main.b274e1df.css",
+    "main.js": "/static/js/main.2cb63cf2.js",
     "static/js/988.5f8bbd3d.chunk.js": "/static/js/988.5f8bbd3d.chunk.js",
     "static/media/1.jpg": "/static/media/1.bf059937e94f11024073.jpg",
     "static/media/hp-header.jpg": "/static/media/hp-header.cd85528030843db952ac.jpg",
@@ -14,12 +14,12 @@
     "static/media/4.jpg": "/static/media/4.ecd1104636aedc8b3935.jpg",
     "static/media/6.jpg": "/static/media/6.adda093d944f4308a9b6.jpg",
     "index.html": "/index.html",
-    "main.7be4b762.css.map": "/static/css/main.7be4b762.css.map",
-    "main.cca33a21.js.map": "/static/js/main.cca33a21.js.map",
+    "main.b274e1df.css.map": "/static/css/main.b274e1df.css.map",
+    "main.2cb63cf2.js.map": "/static/js/main.2cb63cf2.js.map",
     "988.5f8bbd3d.chunk.js.map": "/static/js/988.5f8bbd3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7be4b762.css",
-    "static/js/main.cca33a21.js"
+    "static/css/main.b274e1df.css",
+    "static/js/main.2cb63cf2.js"
   ]
 }

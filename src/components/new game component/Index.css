@@ -1,147 +1,144 @@
 .GameContainer {
-    border: 1px solid #212236;
-    width: 40%;
-    /* height: 400px; */
-    background-color: #EDEADE;
-    position: relative;
-    border-radius: 10px;
-    /* border-bottom: 10px; */
-    padding-bottom: 3em;
-    transition: 0.3s;
-    /* height: 30%; */
+  border: 1px solid #212236;
+  width: 40%;
+  /* height: 400px; */
+  background-color: #edeade;
+  position: relative;
+  border-radius: 10px;
+  /* border-bottom: 10px; */
+  padding-bottom: 3em;
+  transition: 0.3s;
+  /* height: 30%; */
 }
 
 .GameContainer:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.GameImage>img {
-    border-radius: 8px 8px 0 0;
-    width: 100%;
-    display: none;
+.GameImage > img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  /* display: none; */
 }
 
 .GameHeading {
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    justify-content: flex-start;
-    /* padding: 30px 0.8em 0 0.9em; */
-    border-radius: 10px 10px 0 0;
-    /* margin-left: 2em; */
-    font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  /* padding: 30px 0.8em 0 0.9em; */
+  border-radius: 10px 10px 0 0;
+  /* margin-left: 2em; */
+  font-family: "Montserrat", sans-serif;
 }
 
 .headindAndText {
-    padding: 2em 3em;
+  padding: 2em 3em;
 }
 
 .GameTextContainer {
-    padding: 1em 0;
-    /* margin-left: 10px; */
-
+  padding: 1em 0;
+  /* margin-left: 10px; */
 }
 
 .GameText {
-    line-height: 30px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    /* width: 98%; */
-    padding: 0;
-    font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  /* width: 98%; */
+  padding: 0;
+  font-size: 15px;
 }
 
 .GameButton {
-    width: 100%;
-    font-size: 14px;
-    background-color: #CE9134;
-    border: none;
-    border-radius: 0 0 8px 8px;
-    padding: 10px 0;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.3s;
-    /* bottom: 10; */
-    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 14px;
+  background-color: #ce9134;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  /* bottom: 10; */
+  font-family: "Montserrat", sans-serif;
 }
 
 .GameButton:hover {
-    /* font-size: 25px; */
-    opacity: 0.6;
-    /* transition-duration: 0.2s; */
-
+  /* font-size: 25px; */
+  opacity: 0.6;
+  /* transition-duration: 0.2s; */
 }
 
 .GameButtonContainer {
-    margin-top: 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    /* top: 10 !important; */
-    width: 100%;
-    transition: 0.3s;
-    /* position: relative;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* top: 10 !important; */
+  width: 100%;
+  transition: 0.3s;
+  /* position: relative;
     bottom: 0; */
 }
 
 @media only screen and (max-width: 1024px) {
-    .GameContainer {
-        width: 40%;
-    }
+  .GameContainer {
+    width: 40%;
+  }
 
-    .GameText {
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 500;
-    }
+  .GameText {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+  }
 
-    .GameHeading {
-        font-size: 20px;
-        font-weight: 600;
-        /* padding: 30px 0.1em 0 0.1em; */
-        /* margin-left: 2em; */
+  .GameHeading {
+    font-size: 20px;
+    font-weight: 600;
+    /* padding: 30px 0.1em 0 0.1em; */
+    /* margin-left: 2em; */
+  }
 
-    }
-
-    .GameTextContainer {
-        /* padding: 1.5em 2em; */
-    }
+  .GameTextContainer {
+    /* padding: 1.5em 2em; */
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .GameContainer {
-        width: 40%;
-    }
+  .GameContainer {
+    width: 40%;
+  }
 
-    .GameText {
-        font-size: 15px;
-        line-height: 25px;
-        font-weight: 400;
-    }
+  .GameText {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .GameContainer {
-        width: 80%;
-    }
+  .GameContainer {
+    width: 80%;
+  }
 
-    .GameText {
-        font-size: 14px;
-        line-height: 25px;
-        font-weight: 400;
-    }
+  .GameText {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+  }
 
-    .GameTextContainer {
-        /* padding: 3em 1em; */
-    }
+  .GameTextContainer {
+    /* padding: 3em 1em; */
+  }
 
-    .GameHeading {
-        /* padding: 30px 0em 0 0em; */
-    }
+  .GameHeading {
+    /* padding: 30px 0em 0 0em; */
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .headindAndText {
-        padding: 2em 2em;
-    }
+  .headindAndText {
+    padding: 2em 2em;
+  }
 }

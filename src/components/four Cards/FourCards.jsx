@@ -37,8 +37,8 @@ const FourCards = () => {
           heading="$20 FREE!"
           text="Miami Club casino members can take advantage of the exclusive Instant Coupon MIFREE20 to receive $20.00 free every month! Don't miss out on this great opportunity to grab some extra cash."
           btntext="MIFREE20"
-          source={require("../../images/CardImages/1.jpg")} */}
-        {/* /> */}
+          source={require("../../images/CardImages/1.jpg")}
+        />
       </div>
       <div className="tablet">
         <div style={{ display: "flex", justifyContent: "space-around" }}>
